@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SecondKotlin</string>
+    <string name="full_name_gbolahan_oduyemi">Full Name: Gbolahan Oduyemi</string>
+    <string name="email_gbolahanoduyemi1_gmail_com">Email: gbolahanoduyemi1@gmail.com</string>
+    <string name="slack_username_gbolahan146">Slack Username: gbolahan146</string>
+    <string name="tracks_mobile">Tracks: Mobile</string>
+</resources>
