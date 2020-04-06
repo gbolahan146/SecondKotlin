@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">SecondKotlin</string>
-    <string name="full_name_gbolahan_oduyemi">Full Name: Gbolahan Oduyemi</string>
-    <string name="email_gbolahanoduyemi1_gmail_com">Email: gbolahanoduyemi1@gmail.com</string>
-    <string name="slack_username_gbolahan146">Slack Username: gbolahan146</string>
-    <string name="tracks_mobile">Tracks: Mobile</string>
+    <string name="full_name_gbolahan_oduyemi">Gbolahan Oduyemi</string>
+    <string name="email_gbolahanoduyemi1_gmail_com">gbolahanoduyemi1@gmail.com</string>
+    <string name="slack_username_gbolahan146">gbolahan146</string>
+    <string name="tracks_mobile">Mobile</string>
     <string name="title_activity_main2">Main2Activity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -13,4 +13,5 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_review_recycler">ReviewRecycler</string>
 </resources>

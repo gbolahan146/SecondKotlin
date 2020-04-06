@@ -7,22 +7,70 @@
     tools:context=".FirstFragment">
 
     <TextView
-        android:id="@+id/textview_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+        android:id="@+id/full_name"
+        style="@style/TextAppearanceTextView"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="110dp"
+        android:text="@string/full_name_gbolahan_oduyemi"
+        app:layout_constraintBottom_toTopOf="@id/email_address"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/email_address"
+        style="@style/TextAppearanceTextView"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="84dp"
+        android:text="@string/email_gbolahanoduyemi1_gmail_com"
+        app:layout_constraintBottom_toTopOf="@id/slack_username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/full_name" />
+
+    <TextView
+        android:id="@+id/slack_username"
+        style="@style/TextAppearanceTextView"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
+        android:text="@string/slack_username_gbolahan146"
+        app:layout_constraintBottom_toTopOf="@id/tracks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_address" />
+
+    <TextView
+        android:id="@+id/tracks"
+        style="@style/TextAppearanceTextView"
+        android:text="@string/tracks_mobile"
+        android:layout_margin="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/slack_username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <Button
-        android:id="@+id/button_first"
+        android:id="@+id/show_toast_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
+        style="@style/TextAppearanceTextView"
+        android:text="Show Toast"
+        android:textAllCaps="true"
+
+        app:layout_constraintTop_toBottomOf="@id/tracks"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/next_page_button"
+        android:layout_width="wrap_content"
+        style="@style/TextAppearanceTextView"
+        android:text="Next page"
+        android:textAllCaps="true"
+
+        app:layout_constraintTop_toBottomOf="@id/show_toast_button"
+        android:layout_height="wrap_content"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
