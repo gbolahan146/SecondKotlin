@@ -36,7 +36,7 @@ class SecondFragment : Fragment() {
         }
     }
 
-        private fun popul ate(): List<BioItem>{
+        private fun populate(): List<BioItem>{
             return listOf(
                 BioItem("Full name", getString(R.string.full_name_gbolahan_oduyemi)),
                 BioItem("Email address", getString(R.string.email_gbolahanoduyemi1_gmail_com)),
