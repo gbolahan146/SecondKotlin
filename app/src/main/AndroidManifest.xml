@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".car"
+            android:label="@string/title_activity_car"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".bag"
+            android:label="@string/title_activity_bag"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".shoe"
+            android:label="@string/title_activity_shoe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".ReviewRecycler"
             android:label="@string/title_activity_review_recycler"
             android:theme="@style/AppTheme.NoActionBar">
@@ -19,9 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-              <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
