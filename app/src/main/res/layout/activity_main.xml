@@ -1,80 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/sample_rv"
     android:layout_height="match_parent"
-
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/full_name"
-        style="@style/TextAppearanceTextView"
-        android:layout_marginStart="111dp"
-        android:layout_marginEnd="110dp"
-        android:text="@string/full_name_gbolahan_oduyemi"
-        app:layout_constraintBottom_toTopOf="@id/email_address"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
-
-
-    <TextView
-        android:id="@+id/email_address"
-        style="@style/TextAppearanceTextView"
-        android:layout_marginStart="84dp"
-        android:layout_marginEnd="84dp"
-        android:text="@string/email_gbolahanoduyemi1_gmail_com"
-        app:layout_constraintBottom_toTopOf="@id/slack_username"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/full_name" />
-
-    <TextView
-        android:id="@+id/slack_username"
-        style="@style/TextAppearanceTextView"
-        android:layout_marginStart="110dp"
-        android:layout_marginEnd="110dp"
-        android:text="@string/slack_username_gbolahan146"
-        app:layout_constraintBottom_toTopOf="@id/tracks"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email_address" />
-
-    <TextView
-        android:id="@+id/tracks"
-        style="@style/TextAppearanceTextView"
-        android:text="@string/tracks_mobile"
-        android:layout_margin="12dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/slack_username"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
-
-    <TextView
-        android:id="@+id/shoes"
-        style="@style/TextAppearanceTextView"
-        android:layout_margin="12dp"
-        android:text="@string/shoes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tracks"
-        app:layout_constraintVertical_bias="0.051" />
-
-    <Button
-        android:id="@+id/next_page_button"
-        android:layout_width="wrap_content"
-        style="@style/TextAppearanceTextView"
-        android:text="Next page"
-        android:textAllCaps="true"
-
-        app:layout_constraintTop_toBottomOf="@id/shoes"
-        android:layout_height="wrap_content"/>
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:listitem="@layout/sample_list_item"
+    tools:itemCount="5"
+    tools:context=".MainActivity"/>

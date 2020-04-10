@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#FFFFFF"
+    android:backgroundTint="#F57C00"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/item_image"-->
+    <!--        android:layout_width="96dp"-->
+    <!--        android:layout_height="96dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+
+    <!--        tools:src="@tools:sample/avatars" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/item_name"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="12dp"-->
+    <!--        android:textSize="14sp"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/item_image"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/item_image"-->
+    <!--        tools:text="@tools:sample/full_names"-->
+
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/item_address"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="12sp"-->
+    <!--        android:textColor="@android:color/darker_gray"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/item_image"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/item_name"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/item_image"-->
+
+    <!--        tools:text="@tools:sample/cities" />-->
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/item_name"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/item_image"
+        app:layout_constraintTop_toTopOf="@+id/item_image"
+        tools:text="@tools:sample/full_names" />
+
+    <TextView
+        android:id="@+id/item_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#515050"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/item_image"
+        app:layout_constraintStart_toStartOf="@+id/item_name"
+        app:layout_constraintTop_toBottomOf="@+id/item_name"
+        tools:text="@tools:sample/cities" />
+
+    <ImageView
+        android:id="@+id/item_image2"
+        android:layout_width="102dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/gogo2"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

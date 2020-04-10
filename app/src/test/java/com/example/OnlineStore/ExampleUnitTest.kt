@@ -1,4 +1,4 @@
-package com.example.secondkotlin
+package com.example.OnlineStore
 
 import org.junit.Test
 

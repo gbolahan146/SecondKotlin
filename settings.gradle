@@ -1,2 +1,2 @@
-rootProject.name='SecondKotlin'
+rootProject.name='Store'
 include ':app'

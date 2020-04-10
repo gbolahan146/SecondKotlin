@@ -1,4 +1,4 @@
-package com.example.secondkotlin
+package com.example.OnlineStore
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
