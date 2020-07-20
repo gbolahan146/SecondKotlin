@@ -1,2 +1,2 @@
-Simple Shopping list made with Kotlin
+#Simple Shopping list made with Kotlin
 mine
